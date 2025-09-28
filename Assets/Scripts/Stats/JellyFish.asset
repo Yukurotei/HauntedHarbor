@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab349c46839fae04c89ecec9f2ed291a, type: 3}
+  m_Name: JellyFish
+  m_EditorClassIdentifier: 
+  maxHealth: 15
+  spriteType: 1
+  fireRate: 0.75
+  attackType: 1
+  fireOffset: 1
+  bullet: {fileID: 4860388887964909589, guid: be060d9104e22b044b1b561e0a80b207, type: 3}
+  speed: 5
+  jumpForce: 100
+  moveType: 3
+  moveRange: 5
+  moveRadius: 0
+  shoot: {fileID: 8300000, guid: e576068235e299646bda76192dfab935, type: 3}
+  hurt: {fileID: 8300000, guid: 5cbfdcc6eebbb9943a2648b9bf696002, type: 3}
+  death: {fileID: 8300000, guid: 446980937c01b1944bf4619716f003d5, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab349c46839fae04c89ecec9f2ed291a, type: 3}
+  m_Name: SkullCrab
+  m_EditorClassIdentifier: 
+  maxHealth: 35
+  spriteType: 0
+  fireRate: 1
+  attackType: 1
+  fireOffset: 0.7
+  bullet: {fileID: 4860388887964909589, guid: be060d9104e22b044b1b561e0a80b207, type: 3}
+  speed: 2
+  jumpForce: 0
+  moveType: 1
+  moveRange: 0
+  moveRadius: 0
+  shoot: {fileID: 8300000, guid: 6b43118ca234ae3498a429143e27f211, type: 3}
+  hurt: {fileID: 8300000, guid: 27240c456f052be429bf8618e03ca80b, type: 3}
+  death: {fileID: 8300000, guid: 6a417e6b4ea9d964fab7c4590bdb32a1, type: 3}
